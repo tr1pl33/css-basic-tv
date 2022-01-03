@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>televizora na chichko robot</title>
+    <style>
+        #robot {
+            width: 600x;
+            height: 600px;
+            background-color: blue;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: solid;
+            border-color: black;
+            border-width: 50px;
+        }
+
+        #circle {
+            position: relative;
+            background: lightblue;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 250px;
+            margin-bottom: 200px;
+            z-index: 1;
+            /* z-index can be used if the element has position */
+        }
+
+        #square {
+            background: skyblue;
+            width: 100px;
+            height: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -300px;
+            margin-bottom: auto;
+            left: 800px;
+        }
+
+        #square2 {
+            background-color: crimson;
+            width: 100px;
+            height: 100px;
+            margin-top: -100px;
+            margin-left: 740px;
+            margin-bottom: auto;
+            margin-right: auto;
+        }
+
+        #square3 {
+            background-color: floralwhite;
+            width: 100px;
+            height: 100px;
+            margin-top: -100px;
+            margin-left: 948px;
+            margin-bottom: auto;
+            margin-right: auto;
+        }
+
+        #twisty {
+            width: 100px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: blueviolet;
+        }
+
+        #katkozavar {
+            width: 400px;
+            height: 100px;
+            background-color: coral;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="solid">A solid border.</p>
+
+    <div id="robot">
+        <div id="circle">
+        </div>
+        <div id="square">
+        </div>
+        <div id="square2">
+        </div>
+        <div id="square3">
+        </div>
+    </div>
+    <div id="twisty">
+    </div>
+    <div id="katkozavar">
+    </div>
+</body>
+
+</html>
